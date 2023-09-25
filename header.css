@@ -26,8 +26,29 @@
 .lista-menu {
     display: none;
     position: absolute;
+    top: 100%;
+    width: 60vw;
 }
 
 .container_botao:checked ~ .lista-menu {
     display: block;
+}
+
+.lista-menu_titulo, 
+.lista-menu_item {
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu_titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.lista-menu_link {
+    bckground: linear-gradient(9797.54deg, #002F52 35.49%, #326589 165.37%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }
