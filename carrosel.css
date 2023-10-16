@@ -6,24 +6,23 @@
     font-size: 18px;
     font-weight: 700;
     padding: 1em 0 0.5em 0;
-}<!-- Slider main container -->
-<div class="swiper">
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-    <!-- Slides -->
-    <div class="swiper-slide">Slide 1</div>
-    <div class="swiper-slide">Slide 2</div>
-    <div class="swiper-slide">Slide 3</div>
-    ...
-  </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
+}
 
-  <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
+.swiper-slide {
+    width: 100%
+}  
 
-  <!-- If we need scrollbar -->
-  <div class="swiper-scrollbar"></div>
-</div>
-Swiper
+.swiper-button-prev,
+.wiper-button-next {
+  display: none; 
+}
+
+.swiper-pagination{
+   position: initial;
+   margin: 5m 0;
+}
+
+.card__descrição {
+  display: flex;
+}
+
